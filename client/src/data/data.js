@@ -358,3 +358,55 @@ export const recipeData = [
                 category: "중식"
         }
 ]
+
+export const category = [
+        {
+                id:1,
+                name:"분식", 
+                images: "images/design/ch-1.png"
+        },{
+                id:2,
+                name:"보쌈", 
+                images: "images/design/ch-2.png"
+        },{
+                id:3,
+                name:"브런치", 
+                images: "images/design/diet (1).png"
+        },{
+                id:4,
+                name:"디저트", 
+                images: "images/design/diet.png"
+        },{
+                id:5,
+                name:"반찬", 
+                images: "images/design/fast-food.png"
+        },{
+                id:6,
+                name:"중식", 
+                images: "images/design/hot-pot.png"
+        },{
+                id:7,
+                name:"양식", 
+                images: "images/design/ko-2.png"
+        },{
+                id:8,
+                name:"한식", 
+                images: "images/design/ko-3.png"
+        },{
+                id:9,
+                name:"돈까스", 
+                images: "images/design/ko-4.png"
+        },{
+                id:10,
+                name:"pizza", 
+                images: "images/design/ko.png"
+        },{
+                id:11,
+                name:"라면", 
+                images: "images/design/ramen.png"
+        },{
+                id:12,
+                name:"일식", 
+                images: "images/design/salad.png"
+        }
+]
