@@ -26,7 +26,7 @@ const Recipe = () => {
         </div>
         <div className="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-4 gap-6 py-4">
           {foods.map((item) => (
-            < RecipeCard key={item.id} img={item.img} title={item.title} price={item.price}/>
+            < RecipeCard key={item.id} img={item.img} title={item.title} price={item.price} id = {item.id}/>
 
           ))}
         </div>
